@@ -1,13 +1,19 @@
 // -------------------------------------------------
 // Príklady použitia typu number v JavaScripte
-// Popis: Základy práce s number hodnotami 
-// Celé a desatinné čísla, kladné/záporné exponenty, základné operácie, špeciálne hodnoty, 
-// kontrola typu, Number objekt, zaokrúhľovanie, náhodné čísla
-// -------------------------------------------------
+// Popis: Základy práce s number hodnotami  
+// 1. Celé čísla
+// 2. Desatinné čísla
+// 3. Exponenciálny zápis
+// 4. Základné operácie
+// 5. Špeciálne hodnoty
+// 6. Kontrola typu
+// 7. Number objekt
+// 8. Zaokrúhľovanie
+// 9. Náhodné čísla
+// ---------------------
 
-//Príklady s číslami (number) + doplnky
 
-// (1.) Celé čísla (Integer) ---
+// (1. Celé čísla) - (Integer) ---
 // Pre celé čísla platí, že môžu využívať kladné, záporné a 0
 
 let a = 10; // celé číslo, kladné
@@ -16,7 +22,7 @@ let c = 0;  // nula, celé číslo
 console.log(a, b, c); // vypíše: 10 -5 0
 // Konzola výpis --> 10 -5 0
 
-// (2.) Desatinné čísla (Floats) ---
+// (2. Desatinné čísla) - (Floats) ---
 // Pre desatinné čísla platí že používajú bodku (.) ako oddelovač desatinných miest podľa amerického formátu čísel.
 
 let pi = 3.14; // desatinné číslo, typ number
@@ -24,7 +30,7 @@ let cena = 19.99 // desatinné číslo reprezentujúce cenu
 console.log(pi, cena);
 // Konzola výpis --> 3.14, 19.99
 
-// (3.) Exponenciálny zápis ---
+// (3. Exponenciálny zápis) ---
 // Skrátený zápis čísla pomocou mocnín desiatky (10^n)
 
 // (3.1) Kladné exponenty
@@ -133,7 +139,7 @@ console.log(Number.isFinite(nekonecno));
 console.log(Number.isFinite(neplatnaHodnota));
 // Konzola výpis --> false
 
-// (7. Number objekt {} a konverzia) 
+// (7. Number objekt {} a konverzia) ---
 // Number() dokáže previesť textový reťazec na číslo - "42" - 42 alebo "3.14" - 3.14
 // Ak prevod nieje možný, "abc" nezmení na číslo - vráti NaN (Not a Number)
 
@@ -152,7 +158,7 @@ const numberExamples = {
 console.log(numberExamples);
 // Konzola výpis --> celeCislo: 42, desatinneCislo: 3.14, zaporneCislo: -7, neplatnaHodnota: NaN, nulaZPrazdneho: 0,
 
-// (8. Zaokrúhľovanie)
+// (8. Zaokrúhľovanie) ---
 // Zaokrúhľovanie je možné na najbližšie celé čísla, nadol, nahor a n desatinných miest
 
 let cislo1 = 3.14;
@@ -196,7 +202,7 @@ console.log(fixed4, fixed5, fixed6);
 // Konzola výpis --> 3.1 7.80 -2.600 - string (nevhodný na výpočty, len na formátovanie)
 
 
-// (9. Náhodné číslo) 
+// (9. Náhodné číslo) ---
 // Vracia náhodne generované čísla 0 <= Math.random() < 1
 // 0 je možná / 1 nikdy nevznikne
 
