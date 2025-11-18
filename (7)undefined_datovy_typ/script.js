@@ -52,6 +52,7 @@ console.log(osoba1.meno);
 console.log(osoba1.priezvisko);
 // Konzola výpis --> Hruška
 
+
 // (4. Funkcia s nepovinným parametrom) ---
 
 function nepozdravilSa(meno1) {                 
