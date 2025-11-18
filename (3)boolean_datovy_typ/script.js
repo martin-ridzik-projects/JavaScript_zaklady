@@ -1,8 +1,12 @@
 // -------------------------------------------------
 // Príklady použitia typu Boolean v JavaScripte
 // Popis: Základy práce s boolean hodnotami 
-// Priradenie, logické operácie, porovnávanie, konverzia, použitie vo výrazoch
-// -------------------------------------------------
+// 1. Priame priradenie
+// 2. Logické operácie
+// 3. Porovnávanie hodnôt
+// 4. Prevod iných typov na boolean
+// 5. Použitie vo výrazoch
+// ---------------------
 
 // (1. Priame priradenie) ---
 // Premenné obsahujú hodnoty true a false.
