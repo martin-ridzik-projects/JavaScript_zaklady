@@ -22,6 +22,7 @@ let c = 0;  // nula, celé číslo
 console.log(a, b, c); // vypíše: 10 -5 0
 // Konzola výpis --> 10 -5 0
 
+
 // (2. Desatinné čísla) - (Floats) ---
 // Pre desatinné čísla platí že používajú bodku (.) ako oddelovač desatinných miest podľa amerického formátu čísel.
 
@@ -29,6 +30,7 @@ let pi = 3.14; // desatinné číslo, typ number
 let cena = 19.99 // desatinné číslo reprezentujúce cenu
 console.log(pi, cena);
 // Konzola výpis --> 3.14, 19.99
+
 
 // (3. Exponenciálny zápis) ---
 // Skrátený zápis čísla pomocou mocnín desiatky (10^n)
@@ -59,6 +61,7 @@ let negativeExponents = [eNeg1, eNeg2, eNeg3, eNeg4];
 console.log("Záporné exponenty:", negativeExponents);
 // Konzola výpis --> Záporné exponenty: [0.1, 0.02, 0.003, 0.0004]
 
+
 // (4. Základné operácie) ---
 // Základné operácie využívajú sčítanie, odčítanie, násobenie, delenie, zvyšok po delení (modulo), umocnenie
 
@@ -76,6 +79,7 @@ let zvysok = 10 % 3;  //  výsledok je 1 (3 × 3 = 9), zostáva zvyšok 1
 let mocnina = 2 ** 3; // výsledok je 8 (2 na tretiu - 2 * 2 * 2)
 console.log(sucet, odcitanie, nasobenie, delenie, zvysok, mocnina);
 // Konzola výpis --> 15 5 50 2 1 8
+
 
 // (5. Špeciálne hodnoty) --- 
 // Vznikajú pri neobvyklých alebo neplatných matematických operáciách 
@@ -99,6 +103,7 @@ console.log ("Neplatná operácia", invalidOperation);
 let invalidRoot = Math.sqrt(-1); // Odmocnina zo záporného čísla
 console.log("Odmocnina záporného čísla", invalidRoot);
 // Konzola výpis --> Odmocnina záporného čísla NaN
+
 
 // (6. Kontrola typu) ---
 // Slúži na zistenie typu premennej
@@ -139,6 +144,7 @@ console.log(Number.isFinite(nekonecno));
 console.log(Number.isFinite(neplatnaHodnota));
 // Konzola výpis --> false
 
+
 // (7. Number objekt {} a konverzia) ---
 // Number() dokáže previesť textový reťazec na číslo - "42" - 42 alebo "3.14" - 3.14
 // Ak prevod nieje možný, "abc" nezmení na číslo - vráti NaN (Not a Number)
@@ -157,6 +163,7 @@ const numberExamples = {
 
 console.log(numberExamples);
 // Konzola výpis --> celeCislo: 42, desatinneCislo: 3.14, zaporneCislo: -7, neplatnaHodnota: NaN, nulaZPrazdneho: 0,
+
 
 // (8. Zaokrúhľovanie) ---
 // Zaokrúhľovanie je možné na najbližšie celé čísla, nadol, nahor a n desatinných miest
