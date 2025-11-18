@@ -27,13 +27,11 @@ let osoba = {
 console.log(osoba.vek);
 // Konzola výpis --> null 
 
-
 // 1.2 Pole obsahujúce prázdnu hodnotu 
 
 let data = [1, null, 3];
 console.log(data[1]);   
 // Konzola výpis --> null 
-
 
 // 1.3 Funkcia, ktorá zámerne vracia null
 function findUserSimple() {
@@ -43,7 +41,6 @@ function findUserSimple() {
 console.log(findUserSimple());
 // Konzola výpis --> null 
 
-
 // 1.4 Premenná resetovaná na null 
 // (príklad - používateľ sa odhlási)
 
@@ -52,7 +49,6 @@ token = null;           // reset
 
 console.log(token);
 // Konzola výpis --> null 
-
 
 // 1.5 Premenná pripravená na budúce použitie 
 
@@ -72,14 +68,12 @@ data1 = null;            // reset na null
 console.log(data1);
 // Konzola výpis --> null 
 
-
 // 2.1 Resetovanie objektu 
 let osoba1 = {meno: "Jozef", vek:21 };
 osoba1 = null;     // reset na null 
 
 console.log(osoba1); 
 // Konzola výpis --> null 
-
 
 // 2.2 Resetovanie poľa 
 let zoznam = [1, 2, 3];
@@ -94,7 +88,6 @@ pocet = null;
 
 console.log(pocet);
 // Konzola výpis --> null 
-
 
 // 2.4 Resetovanie reťazca
 let sprava = "Ahoj";
@@ -119,7 +112,6 @@ profil = null;
 
 console.log(profil);
 // Konzola výpis --> null
-
 
 // 2.7 Resetovanie premennej pri zmene stavu 
 // PR. hry alebo aplikácie
@@ -161,7 +153,6 @@ console.log(findUserbyName("Peter"));  // voláme funkciu (findUser) + argument 
 
 console.log(findUserbyName("Jozef"));  // voláme funkciu (findUser) + argument ("Jozef") - neexistuje
 // Konzola výpis --> null
-
 
 // 3.2 Hľadanie čísla 
 // Ak hľadáme číslo, ktoré pole neobsahuje, vypíše null
@@ -236,7 +227,6 @@ if (hodnota === null) {     // (operátor ===) prísna rovnosť, (podmienka) - r
     console.log("Hodnota je prázdna");
     // Konzola výpis --> Hodnota je prázdna 
 }
-
 
 // 4.1 Kontrola objektu 
 
@@ -434,7 +424,6 @@ console.log(pouzivatel3.meno);
 
 console.log(pouzivatel3.adresa);
 // Konzola výpis --> null
-
 
 // 7.3 Funkcia, ktorá vracia objekt s null hodnotou 
 
