@@ -35,6 +35,7 @@ console.log(zmiesane[3]);    // pomocou indexu 3 vytiahnem objekt (Adam)
 console.log(zmiesane[3].meno);
 // Konzola výpis --> Adam
 
+
 // (2. Prístup k jednotlivým prvkom podľa indexu) ---
 // Indexovanie začína od 0!
 
@@ -53,6 +54,7 @@ console.log(ovocko[3]);
 // Konzola výpis --> undefined (máme iba 3 druhy ovocia)
 // (pole má len 3 prvky, teda indexy 0–2)
 
+
 // (3. Zmena hodnoty pomocou indexu) ---
 // Pôvodné pole
 let ovocie2 = ["jablko", "banán", "hruška"];
@@ -63,6 +65,7 @@ ovocie2[1] = "pomaranč"
 // Výpis upraveného poľa do konzoly
 console.log(ovocie2);
 // Konzola výpis --> jablko, pomaranč, hruška
+
 
 // (4. Pridanie a odstránenie prvkov) ---
 
@@ -90,6 +93,7 @@ zelenina.shift();
 console.log("Po shift():", zelenina);
 // Konzola výpis --> paprika, paradajka, uhorka
 
+
 // (5. Prechádzanie polí) ---
 // forEach - prejde každý prvok poľa cisla1
 // x => je aktuálny prvok poľa a console.log(x) ho vypíše do konzoly
@@ -97,6 +101,7 @@ console.log("Po shift():", zelenina);
 let cisla1 = [1, 2, 3];
 cisla1.forEach(x => console.log(x)); 
 // Konzola výpis --> 1, 2, 3
+
 
 // (6. Premapovanie) ---
 // cisla2.map - prejde každý prvok poľa cisla2 
@@ -107,6 +112,7 @@ let zdvojenie = cisla2.map(x => x * 2);
 console.log(zdvojenie);
 // Konzola výpis --> 2, 4, 6
 
+
 // (7. Filtrovanie) ---
 // cisla3.filter - prejde každý prvok poľa cisla3
 // x => x > 2 je podmienka, ktorá vracia true alebo false
@@ -116,6 +122,7 @@ let cisla3 = [1, 2, 3];
 let vacsieAko2 = cisla3.filter(x => x > 2);
 console.log(vacsieAko2); 
 // Konzola výpis --> [3] - pretože iba 3 spĺňa podmienku (3 > 2)
+
 
 // (8. Spojenie prvkov) --- 
 // join(", ") - prejde všetky prvky poľa a spojí ich do jedného reťazca, oddeleného čiarkou a medzerou
@@ -134,6 +141,7 @@ let b = [3, 4];
 let spojenie = a.concat(b);  
 console.log(spojenie); 
 // Konzola výpis --> [1, 2, 3, 4]
+
 
 // (10. Dĺžka poľa) ---
 // zelenina2.length - vráti počet prvkov v poli 
