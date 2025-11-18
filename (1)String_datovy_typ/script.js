@@ -1,11 +1,18 @@
-
 // -------------------------------------------------
 // Príklady použitia typu String v JavaScripte
 // Popis: Základy práce zo String hodnotami
-// Pozdrav, zistenie dĺžky textu, jednotlivé znaky, veľkosť písmen, spájanie reťazcov, obsah reťazca, vystrihnutie a nahradenie textu
+// 1. Jednoduchý pozdrav 
+// 2. Zistenie dĺžky textu
+// 3. Prístup k jednotlivým znakom
+// 4. Zmena veľkosti písmen
+// 5. Spájanie reťazcov
+// 6. Kontrola, či reťazec obsahuje určitý text
+// 7. Vystrihnutie časti textu
+// 8. Nahradenie textu 
 // ---------------------
 
-// (1.) Pozdrav ---
+
+// (1. Jednoduchý pozdrav) ---
 {
     let meno = "Anna",
         pozdrav = "Ahoj";
@@ -14,7 +21,7 @@
 }
 
 
-// (2.) Zistenie dĺžky textu ---
+// (2. Zistenie dĺžky textu) ---
 {
 let text = "Anna"; 
 console.log(text.length);
@@ -22,7 +29,7 @@ console.log(text.length);
 }
 
 
-// (3.) Prístup k jednotlivým znakom ---
+// (3. Prístup k jednotlivým znakom) ---
 // Indexy: 0(H), 1(e), 2(l), 3(l), 4(o)
 {
 let slovo = "Hello";
@@ -39,7 +46,7 @@ console.log(slovo[4]);
 }
 
 
-// (4.) Zmena veľkosti písmen ---
+// (4. Zmena veľkosti písmen) ---
 {
    let jazyk = "javascript";
 console.log(jazyk.toUpperCase());
@@ -49,7 +56,7 @@ console.log(jazyk.toLowerCase());
 }
 
 
-// (5.) Spájanie reťazcov
+// (5. Spájanie reťazcov)
 {
 let meno = "Tomáš"; 
 let spojenie = "Ahoj," + meno + "!";
@@ -58,7 +65,7 @@ console.log(spojenie);
 }
 
 
-// (6.) Kontrola, či reťazec obsahuje určitý text
+// (6. Kontrola, či reťazec obsahuje určitý text)
 {
 let veta = "Mám rád programovanie";
 console.log(veta.includes ("rád"));
@@ -68,7 +75,7 @@ console.log(veta.includes ("nuda"));
 }
 
 
-// (7.) Vystrihnutie časti textu
+// (7. Vystrihnutie časti textu)
 {
 let text = "JavaScript"; 
 console.log (text.slice(0, 4));
@@ -76,7 +83,7 @@ console.log (text.slice(0, 4));
 }
 
 
-// (8.) Nahradenie textu 
+// (8. Nahradenie textu)
 {
 let veta = "Mám rád Java.";
 let nova = veta.replace ("Java", "JavaScript");
