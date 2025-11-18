@@ -14,9 +14,11 @@ let jeZapnuté = true;
 console.log(jeZapnuté);
 // Konzola výpis --> true
 
+
 let jeVypnute = false;
 console.log(jeVypnute);
 // Konzola výpis --> false
+
 
 // (2. Logické operácie) ---
 let jeDospelý = true; 
@@ -36,6 +38,7 @@ let z = !jeDospelý;             // false (! - negácia, zmení na opačnú hodn
 console.log(z);    
 // Konzola výpis --> false
 
+
 // (3. Porovnávanie hodnôt) ---
 let a = 5;
 let b = 10;
@@ -48,6 +51,7 @@ console.log(a < b);     // b je väčšie ako a
 
 console.log(a === b);   // a aj b sú čísla (number), ale nemajú rovnakú hodnotu
 // Konzola výpis --> false 
+
 
 // (4. Prevod iných typov na boolean) ---
 
@@ -74,6 +78,7 @@ console.log(Boolean(null));
 Boolean(undefined);  // undefined znamená "nenastavené"
 console.log(Boolean(undefined));
 // Konzola výpis --> false
+
 
 // (5. Použitie vo výrazoch) --- 
 
