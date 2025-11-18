@@ -9,8 +9,6 @@
 // 6. Objekt s dynamickými kľúčmi
 // ---------------------
 
-
-
 // (1. Jednoduchý objekt) ---
 // Vytvorenie jednoduchého objektu s hodnotami
 
@@ -26,7 +24,6 @@ console.log(osoba.meno, osoba.vek);    // objekt.kľúč
 // Konzola výpis --> Anna 25
 
 
-
 // (2. Pridávanie a upravovanie vlastností) ---
 // Pridanie priezviska a zmena veku 
 
@@ -38,7 +35,6 @@ console.log(osoba);   // objekt
 
 console.log(osoba.meno, osoba.priezvisko, osoba.vek);
 // Konzola výpis --> Anna Nováková 26    // objekt.kľúč
-
 
 
 // (3. Metódy v objekte) ---
@@ -54,7 +50,6 @@ const auto = {
 
 console.log(auto.info());
 // Konzola výpis --> Toyota Auris
-
 
 
 // (4. Vnorené objekty) ---
@@ -78,7 +73,6 @@ console.log(clovek.meno, clovek.adresa)
 // Konzola výpis --> Peter {mesto: 'Bratislava', ulica: 'Hlavná 1'}
 
 
-
 // (5. Iterácia cez vlastnosti) ---
 // Prechádza všetky vlastnosti objektu (názov a hodnota)
 
@@ -94,7 +88,6 @@ for (let kľúč in osoba1) {
 // Konzola výpis --> meno Milan vek 21
 // keď kľúč = "meno", potom osoba1[kľúč] = osoba1["meno"] = "Milan"
 // keď kľúč = "vek", potom osoba1[kľúč] = osoba1["vek"] = 21
-
 
 
 // (6. Objekt s dynamickými kľúčmi) ---
